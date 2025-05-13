@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div style={{ padding: '40px', fontFamily: 'Arial' }}>
-      <h1>React + Vite Frontend</h1>
+      <h1>React + Vite Frontend Project</h1>
       <p>Backend says: <strong>{data}</strong></p>
     </div>
   );
