@@ -17,6 +17,10 @@ mongoose.connect(process.env.MONGODB_URI, {
 .then(() => console.log('✅ MongoDB connected'))
 .catch(err => console.error('❌ MongoDB connection error:', err));
 
+// app.get('/', (req, res) => {
+//    res.json({ message: 'Hello World!' });
+// });
+
 // Simple API
 app.get('/api/data', (req, res) => {
   res.json({ message: 'Hello from the backend!' });
