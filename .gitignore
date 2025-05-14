@@ -1,3 +1,16 @@
-node_modules
+# Node
+node_modules/
 .env
 
+# React
+client/build/
+
+# Logs
+logs
+*.log
+
+# Docker
+*.pid
+
+# OS
+.DS_Store
